@@ -43,6 +43,23 @@
     <build>
         <defaultGoal>install</defaultGoal>
         <plugins>
+             <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <version>3.0</version>
+                <configuration>
+                    <url>jdbc:mysql://localhost/Flyway</url>
+                    <user>root</user>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>5.1.34</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+                    
             <plugin>
                 <groupId>org.appfuse.plugins</groupId>
                 <artifactId>appfuse-maven-plugin</artifactId>
@@ -295,6 +312,11 @@
 
     <!-- Dependencies calculated by AppFuse when running full-source plugin -->
     <dependencies>
+        <dependency>
+             <groupId>org.flywaydb</groupId>
+             <artifactId>flyway-core</artifactId>
+             <version>3.1</version>
+        </dependency>
         <dependency>
             <groupId>${jdbc.groupId}</groupId>
             <artifactId>${jdbc.artifactId}</artifactId>

@@ -46,10 +46,12 @@
 /home/fanatik/Flyway/src/main/java/ch/hfict/dao/LookupDao.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/model/User.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/dao/hibernate/RoleDaoHibernate.java
+/home/fanatik/Flyway/src/main/java/ch/hfict/executer/AppConfig.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/controller/ReloadController.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/service/MailEngine.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/dao/UserDao.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/taglib/ConstantsTei.java
+/home/fanatik/Flyway/src/main/java/db/migration/V1_2__test.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/listener/StartupListener.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/dao/GenericDao.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/model/Role.java
