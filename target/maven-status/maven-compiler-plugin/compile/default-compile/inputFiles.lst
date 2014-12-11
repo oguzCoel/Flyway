@@ -51,6 +51,7 @@
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/controller/ReloadController.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/service/MailEngine.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/dao/UserDao.java
+/home/fanatik/Flyway/src/main/java/db/migration/V3__Modify_column_name.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/taglib/ConstantsTei.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/listener/StartupListener.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/dao/GenericDao.java
