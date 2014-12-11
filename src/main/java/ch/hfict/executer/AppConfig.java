@@ -18,7 +18,6 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 	Flyway flyway = new Flyway();
 	flyway.setBaselineOnMigrate(true);
 	flyway.setLocations("filesystem:src/main/resources/db/migration");
-	flyway.setLocations("classpath:src/main/java/db.migration");
 	flyway.setDataSource(dataSource());
 	return flyway;
 	}

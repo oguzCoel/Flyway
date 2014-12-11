@@ -15,6 +15,7 @@
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/controller/UserFormController.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/service/impl/PersistentPasswordTokenManagerImpl.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/service/UserService.java
+/home/fanatik/Flyway/src/main/java/db/migration/V2__Create_new_entity.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/util/ValidationUtil.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/service/impl/UserManagerImpl.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/service/UserManager.java
@@ -51,7 +52,6 @@
 /home/fanatik/Flyway/src/main/java/ch/hfict/service/MailEngine.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/dao/UserDao.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/taglib/ConstantsTei.java
-/home/fanatik/Flyway/src/main/java/db/migration/V1_2__test.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/webapp/listener/StartupListener.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/dao/GenericDao.java
 /home/fanatik/Flyway/src/main/java/ch/hfict/model/Role.java
