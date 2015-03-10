@@ -24,7 +24,7 @@ public interface GenericDao <T, PK extends Serializable> {
      * is the same as lookup up all rows in a table.
      * @return List of populated objects
      */
-    List<T> getAll();
+    List<T> getAll();fdgsdfg
 
     /**
      * Gets all records without duplicates.
